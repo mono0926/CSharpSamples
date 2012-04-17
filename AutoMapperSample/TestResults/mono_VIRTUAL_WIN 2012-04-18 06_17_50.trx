@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4953dd83-b2c2-4fe3-a189-d0956e7c8891" name="mono@VIRTUAL_WIN 2012-04-18 06:17:50" runUser="virtual_win\mono" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="ローカル" id="c657b829-1f3b-4ff3-b506-8f2a7f5810c9">
+    <Description>これらはローカル テスト実行用の既定のテスト設定です。</Description>
+    <Deployment enabled="false" runDeploymentRoot="mono_VIRTUAL_WIN 2012-04-18 06_17_50">
+      <DeploymentItem filename="c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample\bin\Debug\AutoMapperSample.exe" />
+      <DeploymentItem filename="c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\packages\AutoMapper.2.1.266\lib\net40\AutoMapper.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T06:17:50.7058194+09:00" queuing="2012-04-18T06:17:50.7994236+09:00" start="2012-04-18T06:17:50.8306250+09:00" finish="2012-04-18T06:17:51.2050418+09:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MapWithProfileTest" storage="c:\users\mono\documents\visual studio 2010\projects\automappersample\automappersample.test\bin\debug\automappersample.test.dll" id="232b3d24-fa42-3d4a-fb75-ccba67e0e66a">
+      <Execution id="d94967e8-7a07-4f30-94bc-0fde58cbf1aa" />
+      <TestMethod codeBase="c:/users/mono/documents/visual studio 2010/Projects/AutoMapperSample/AutoMapperSample.Test/bin/Debug/AutoMapperSample.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoMapperSample.Test.AutoMapperDriverTest, AutoMapperSample.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MapWithProfileTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="一覧に存在しない結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="読み込まれたすべての結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="232b3d24-fa42-3d4a-fb75-ccba67e0e66a" executionId="d94967e8-7a07-4f30-94bc-0fde58cbf1aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d94967e8-7a07-4f30-94bc-0fde58cbf1aa" testId="232b3d24-fa42-3d4a-fb75-ccba67e0e66a" testName="MapWithProfileTest" computerName="VIRTUAL_WIN" duration="00:00:00.1237787" startTime="2012-04-18T06:17:50.8306250+09:00" endTime="2012-04-18T06:17:51.1582397+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d94967e8-7a07-4f30-94bc-0fde58cbf1aa">
+    </UnitTestResult>
+  </Results>
+</TestRun>

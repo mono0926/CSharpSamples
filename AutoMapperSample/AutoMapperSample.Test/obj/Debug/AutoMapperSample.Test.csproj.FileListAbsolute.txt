@@ -1,0 +1,9 @@
+c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample.Test\bin\Debug\AutoMapperSample.Test.dll
+c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample.Test\bin\Debug\AutoMapperSample.Test.pdb
+c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample.Test\bin\Debug\AutoMapper.dll
+c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample.Test\bin\Debug\AutoMapperSample.exe
+c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample.Test\bin\Debug\AutoMapperSample.pdb
+c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample.Test\bin\Debug\AutoMapper.xml
+c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample.Test\obj\Debug\ResolveAssemblyReference.cache
+c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample.Test\obj\Debug\AutoMapperSample.Test.dll
+c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample.Test\obj\Debug\AutoMapperSample.Test.pdb

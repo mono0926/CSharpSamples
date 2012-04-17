@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c33dda84-e73e-4ac4-933f-65d4b24094c0" name="mono@VIRTUAL_WIN 2012-04-18 04:51:39" runUser="virtual_win\mono" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="ローカル" id="c657b829-1f3b-4ff3-b506-8f2a7f5810c9">
+    <Description>これらはローカル テスト実行用の既定のテスト設定です。</Description>
+    <Deployment enabled="false" runDeploymentRoot="mono_VIRTUAL_WIN 2012-04-18 04_51_39">
+      <DeploymentItem filename="c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample\bin\Debug\AutoMapperSample.exe" />
+      <DeploymentItem filename="c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\packages\AutoMapper.2.1.266\lib\net40\AutoMapper.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T04:51:39.5659188+09:00" queuing="2012-04-18T04:51:41.2039818+09:00" start="2012-04-18T04:51:41.8506167+09:00" finish="2012-04-18T04:51:43.0206617+09:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MapSimpleTest" storage="c:\users\mono\documents\visual studio 2010\projects\automappersample\automappersample.test\bin\debug\automappersample.test.dll" id="b5f71b86-f60f-f0a5-5942-4e488aeb3c92">
+      <Execution id="e88b74b3-5c6a-487b-92f0-a85c5a25103f" />
+      <TestMethod codeBase="c:/users/mono/documents/visual studio 2010/Projects/AutoMapperSample/AutoMapperSample.Test/bin/Debug/AutoMapperSample.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoMapperSample.Test.AutoMapperDriverTest, AutoMapperSample.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MapSimpleTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="一覧に存在しない結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="読み込まれたすべての結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b5f71b86-f60f-f0a5-5942-4e488aeb3c92" executionId="e88b74b3-5c6a-487b-92f0-a85c5a25103f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e88b74b3-5c6a-487b-92f0-a85c5a25103f" testId="b5f71b86-f60f-f0a5-5942-4e488aeb3c92" testName="MapSimpleTest" computerName="VIRTUAL_WIN" duration="00:00:00.3147266" startTime="2012-04-18T04:51:42.0690251+09:00" endTime="2012-04-18T04:51:42.9582593+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e88b74b3-5c6a-487b-92f0-a85c5a25103f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;masayuki ono&gt;. </Message>
+          <StackTrace>   at AutoMapperSample.Test.AutoMapperDriverTest.MapSimpleTest() in c:\users\mono\documents\visual studio 2010\Projects\AutoMapperSample\AutoMapperSample.Test\AutoMapperDriverTest.cs:line 96
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
